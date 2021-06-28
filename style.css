@@ -1,0 +1,16 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+.item{
+    display: inline-grid;
+}
+.parent{
+    background-color: grey;
+    align-items: center;
+}
+h1{
+    position: relative;
+    font-family: cursive;
+    background-color: #aaaaaa;
+}
